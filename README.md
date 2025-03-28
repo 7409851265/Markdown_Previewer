@@ -2,7 +2,7 @@
  # Project Details
  * This is a markdown Preview website where you can write in marked text and it will convert it into html format on real time.
  * I have created two blocks one is markdown text area on the left side and one is preview are on the right side.
- * deployment link - ![WebLink](<https://markdown-previewer-git-main-zafars-projects-0f2e9a75.vercel.app/>)
+ * deployment link - ![WebLink](<https://markdown-previewer-ten-pi.vercel.app/>)
 
 # Features 
 * Text can not be deleted from preview area it can only delete from text are and it will render the text on real time delete the date also
@@ -20,5 +20,5 @@
 
 # Deployment on vercel
 * hosted this project on vercel
-* SS - ![SS](<vercel Deployment.png>)
-* Hosted link - ![WebLink](<https://markdown-previewer-git-main-zafars-projects-0f2e9a75.vercel.app/>)
+* SS - ![SS](<Vercel Deployment.png>)
+* Hosted link - ![WebLink](<https://markdown-previewer-ten-pi.vercel.app/>)
