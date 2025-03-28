@@ -16,9 +16,9 @@
 * Git repo link - 
 
 # Web UI images
-* images - ![](<WebUI1.png>) ![](<WebUI2.png>)
+* images - ![WebUI](<WebUI1.png>) ![WebUI](<WebUI2.png>)
 
 # Deployment on vercel
 * hosted this project on vercel
-* SS - ![](<vercel Deployment.png>)
-* Hosted link - ![](<https://markdown-previewer-git-main-zafars-projects-0f2e9a75.vercel.app/>)
+* SS - ![SS](<vercel Deployment.png>)
+* Hosted link - ![Web Link](<https://markdown-previewer-git-main-zafars-projects-0f2e9a75.vercel.app/>)
