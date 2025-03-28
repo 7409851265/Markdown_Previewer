@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    background-color: #e7e3e365;
+    gap: 20px;
+}
+.container {
+    
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    gap: 20px;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.clearbtn{
+    display: flex;
+    justify-content: space-between;
+
+    button{
+        border: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        border-radius: 8px;
+        padding: 3px;
+        cursor: pointer;
+        font-weight: 500;
+
+    }
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.preview-area{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+textarea, .preview {
+    height: 450px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+#preview {
+    min-width: 100px;
+    height: 450px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 300px;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#preview ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#preview ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+@media (max-width: 680px){
+    h1{
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .container{
+        display: block;
+    }
+
+    textarea, .preview {
+        height: 350px;
+    }
+    #preview {
+        height: 350px;
+    }
+    #pdf-convert{
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .preview-area{
+        margin-bottom: 20px;
+    }
+}
